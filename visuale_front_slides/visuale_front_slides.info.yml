@@ -1,0 +1,9 @@
+name: Visuale Front Slides
+type: module
+description: Custom slide tray display – front page
+core: 8.x
+package: Custom
+libraries:
+  - visuale_front_slides/visuale-front-slides
+dependencies:
+ - block

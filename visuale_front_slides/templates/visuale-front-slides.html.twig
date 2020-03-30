@@ -1,0 +1,12 @@
+  <a href="#" id="leftarrow" class="direction-control left">
+    &larr;
+  </a>
+  {# Important – the holder tray should have no whitespace at load #}
+  <div id="front_tray_holder" class="slideshow frontslides"></div>
+  <script type="text/javascript">
+    var slide_data_front = {{ frontslidesbatch|json_encode()|raw }};
+  </script>
+  <a href="#" id="rightarrow" class="direction-control right">
+    &rarr;
+  </a>
+  {{ attach_library('visuale_front_slides/visuale-front-slides') }}

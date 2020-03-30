@@ -1,0 +1,5 @@
+visuale-front-slides:
+  version: 1.x
+  footer: true
+  js:
+    src/js/visuale-front-slides.js: {}

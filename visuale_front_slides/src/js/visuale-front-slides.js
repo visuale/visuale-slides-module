@@ -1,0 +1,1 @@
+// Front slides transferred to the main theme JS directory.
